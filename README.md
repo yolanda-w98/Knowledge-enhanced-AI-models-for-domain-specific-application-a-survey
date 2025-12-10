@@ -380,7 +380,7 @@ According to the different types of input data, we classify existing models into
 
 -   [**Combining Deep Learning with Knowledge Graph for Macro Process Planning**](https://doi.org/10.1016/j.compind.2022.103668)  
     Zhang Y, Zhang S, Huang R, et al. Comput Industry, 2022
--   [**An effective process design intent inference method of process data via integrating deep learning and grammar parsing **](https://www.sciencedirect.com/science/article/abs/pii/S1474034623003026)  
+-   [**An effective process design intent inference method of process data via integrating deep learning and grammar parsing**](https://www.sciencedirect.com/science/article/abs/pii/S1474034623003026)  
     Huang R, Han Z, Fei M, et al. Adv Eng Inf, 2023
 -   [**Knowledge Graph with Deep Reinforcement Learning for Intelligent Generation of Machining Process Design**](https://www.tandfonline.com/doi/full/10.1080/09544828.2024.2338342)  
     Hua Y, Wang R, Wang Z, et al. J Eng Des, 2024
