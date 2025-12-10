@@ -23,7 +23,7 @@ With the rapid development of artificial intelligence (AI), deep learning models
 
 We divide explicit knowledge into two major forms based on external representation: **Structured Data** (including Knowledge Graphs, Tables, and Databases) and **Explicit Rules** (including Policies, Formulas, and Axioms). 
 
-![knowledge-type](figure\knowledge-type.png)
+![knowledge-type](figure/knowledge-type.png)
 
 ### 2. Classification of Models
 
@@ -33,7 +33,7 @@ According to the different types of input data, we classify existing models into
 - **Multimodal Models:** Capable of processing and aligning information from heterogeneous modalities (e.g., text, image, audio, video).  
 - **Time-series Models:** Specialized in handling data sequences arranged in chronological order (e.g., sensor data, stock prices).
 
-![model-type](figure\model-type.png)
+![model-type](figure/model-type.png)
 
 ---
 
@@ -43,7 +43,7 @@ According to the different types of input data, we classify existing models into
 
 #### 1.1 Small-scale PLMs (e.g., BERT, RoBERTa)
 
-![S-PLM](figure\S-PLM.png)
+![S-PLM](figure/S-PLM.png)
 
 **Pre-execution Enhancement (Pre-training & Fine-tuning)**
 
@@ -114,7 +114,7 @@ According to the different types of input data, we classify existing models into
 
 #### 1.2 Large Language Models (LLMs)
 
-![LLM](figure\LLM.png)
+![LLM](figure/LLM.png)
 
 #### **Pre-execution Enhancement (Prompt Engineering)**
 
@@ -167,7 +167,7 @@ According to the different types of input data, we classify existing models into
 
 ### 2. Multimodal Models
 
-![Multimodal](figure\Multimodal.png)
+![Multimodal](figure/Multimodal.png)
 
 
 **Pre-execution Enhancement**
@@ -229,7 +229,7 @@ According to the different types of input data, we classify existing models into
 
 ### 3. Time-series Models
 
-![Time-series](figure\Time-series.png)
+![Time-series](figure/Time-series.png)
 
 **Pre-execution Enhancement**
 
@@ -294,7 +294,7 @@ According to the different types of input data, we classify existing models into
 
 #### ⚛️ AI4Science
 
-![AI4Science](figure\AI4Science.png)
+![AI4Science](figure/AI4Science.png)
 
 **Physics**
 
@@ -327,7 +327,7 @@ According to the different types of input data, we classify existing models into
 
 #### 💊 AI4Medicine
 
-![AI4Medicine](figure\AI4Medicine.png)
+![AI4Medicine](figure/AI4Medicine.png)
 
 
 **Medical Vision-and-Language Pre-training**
@@ -359,7 +359,7 @@ According to the different types of input data, we classify existing models into
 
 #### 🏭 AI4Industry
 
-![AI4Industry](C:\Users\wyhap\Downloads\figure\AI4Industry.png)
+![AI4Industry](C:/Users/wyhap/Downloads/figure/AI4Industry.png)
 
 **Fault Diagnosis**
 
