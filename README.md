@@ -3,7 +3,7 @@
 [![Paper](https://img.shields.io/badge/Paper-PDF-red)](https://link.springer.com/article/10.1007/s11432-025-4635-0)
 [![Science China](https://img.shields.io/badge/Journal-Science_China_Information_Sciences-blue)](https://www.sciengine.com/SCIS/)
 
-This repository serves as the official resource list for the survey paper **"Knowledge-enhanced AI models for domain-specific application: a survey"**, published in *Science China Information Sciences*.
+This repository serves as the official resource list for the survey paper **"[Knowledge-enhanced AI models for domain-specific application: a survey](https://www.sciengine.com/SCIS/doi/10.1007/s11432-025-4635-0)"**, published in *Science China Information Sciences*.
 
 We provide a systematic synthesis review of the techniques employed in **explicit knowledge-enhanced models**, encompassing **Language Models**, **Multimodal Models**, and **Time-series Models**.
 
