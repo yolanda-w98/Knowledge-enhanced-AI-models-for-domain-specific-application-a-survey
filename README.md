@@ -23,7 +23,7 @@ With the rapid development of artificial intelligence (AI), deep learning models
 
 We divide explicit knowledge into two major forms based on external representation: **Structured Data** (including Knowledge Graphs, Tables, and Databases) and **Explicit Rules** (including Policies, Formulas, and Axioms). 
 
-![knowledge-type](README.assets\knowledge-type.png)
+![knowledge-type](figure\knowledge-type.png)
 
 ### 2. Classification of Models
 
@@ -33,7 +33,7 @@ According to the different types of input data, we classify existing models into
 - **Multimodal Models:** Capable of processing and aligning information from heterogeneous modalities (e.g., text, image, audio, video).  
 - **Time-series Models:** Specialized in handling data sequences arranged in chronological order (e.g., sensor data, stock prices).
 
-![model-type](README.assets\model-type.png)
+![model-type](figure\model-type.png)
 
 ---
 
@@ -43,7 +43,7 @@ According to the different types of input data, we classify existing models into
 
 #### 1.1 Small-scale PLMs (e.g., BERT, RoBERTa)
 
-![S-PLM](README.assets\S-PLM.png)
+![S-PLM](figure\S-PLM.png)
 
 **Pre-execution Enhancement (Pre-training & Fine-tuning)**
 
@@ -106,11 +106,15 @@ According to the different types of input data, we classify existing models into
 -   [**LogiQA: Generating Hierarchical Explanations on Text Classification via Feature Interaction Detection**](https://arxiv.org/abs/2004.02015)  
     Chen H, Zheng G, Ji Y. ArXiv, 2020
 
-
+| Method             | Advantages                                                   | Limitations                                                  |
+| ------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| **Pre-execution**  | • Stable knowledge enhancement<br>• Improves base representations<br>• Consistent downstream gains | • Static knowledge (no updates)<br>• Retraining needed for new domains<br>• High computational cost |
+| **In-execution**   | • Real-time knowledge dynamic updates<br>• Context-aware adaptation<br>• No model retraining | • Complex architecture design<br>• Efficiency-performance tradeoff<br>• Limited by PLM capacity |
+| **Post-execution** | • Flexible deployment<br>• Explainable corrections<br>• Direct output modification | • Output consistency issues<br>• Algorithm-dependent results<br>• No standard evaluation |
 
 #### 1.2 Large Language Models (LLMs)
 
-![LLM](README.assets\LLM.png)
+![LLM](figure\LLM.png)
 
 #### **Pre-execution Enhancement (Prompt Engineering)**
 
@@ -153,11 +157,17 @@ According to the different types of input data, we classify existing models into
 -   [**ChatKBQA: A Generate-then-Retrieve Framework for Knowledge Base Question Answering**](https://arxiv.org/abs/2310.08975)  
     Luo H, E H, Tang Z, et al. ACL (Findings), 2024
 
+| Method             | Advantages                                                   | Limitations                                                  |
+| ------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| **Pre-execution**  | • Simple flexible deployment<br>• Strong versatility and scalability<br>• Low implementation cost | • High prompt sensitivity<br>• Fixed reasoning paths<br>• Low knowledge utilization efficiency |
+| **In-execution**   | • Dynamic interactive knowledge access<br>• Adaptive reasoning path adjustment<br>• Real-time feedback mechanisms | • High system complexity<br>• Large computational resource<br>• Instruction following dependency |
+| **Post-execution** | • Reliable verification and correction<br>• Decoupled from reasoning process<br>• Easy framework integration | • Dependency verification knowledge<br>• Lacks generative flexibility<br>• Increases processing time overhead |
+
 ---
 
 ### 2. Multimodal Models
 
-![Multimodal](README.assets\Multimodal.png)
+![Multimodal](figure\Multimodal.png)
 
 
 **Pre-execution Enhancement**
@@ -209,11 +219,17 @@ According to the different types of input data, we classify existing models into
 -   [**ProSurv: Prototype-guided Cross-modal Knowledge Enhancement for Adaptive Survival Prediction**](https://arxiv.org/abs/2503.10726)  
     Liu F, Cai L, Wang Z, et al. ArXiv, 2025
 
+| Method             | Advantages                                                   | Limitations                                                  |
+| ------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| **Pre-execution**  | • Improves early semantic alignment<br>• Enables domain-aware pretraining<br>• Enhances generalization | • Static knowledge; lacks adaptability<br>• Limited response to context shifts<br>• Fixed representation space |
+| **In-execution**   | • Enables dynamic knowledge access<br>• Enhances context-aware reasoning<br>• Facilitates fine-grained integration | • High runtime complexity<br>• Sensitive to retrieval quality |
+| **Post-execution** | • Supports output refinement<br>• Decoupled from model design<br>• Improves factual consistency | • Limited influence on core reasoning<br>• Relies on auxiliary input<br>• May increase inference latency |
+
 ---
 
 ### 3. Time-series Models
 
-![Time-series](README.assets\Time-series.png)
+![Time-series](figure\Time-series.png)
 
 **Pre-execution Enhancement**
 
@@ -266,6 +282,12 @@ According to the different types of input data, we classify existing models into
 -   [**From News to Forecast: Integrating Event Analysis in LLM-Based Time Series Forecasting with Reflection**](https://proceedings.neurips.cc/paper_files/paper/2024/hash/68175781604085421c9a63383a15c60a-Abstract-Conference.html)  
     Wang X, Feng M, Qiu J, et al. NeurIPS, 2024
 
+| Method             | Advantages                                                   | Limitations                                                  |
+| ------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| **Pre-execution**  | • Multimodal capabilities<br>• Portability and flexibility<br>• Multi-domain versatility | • High cost of LLMs<br>• Distribution shift problem of RAGs<br>• Highly empirical rules |
+| **In-execution**   | • Priori variate-wise dependence<br>• Physical meaningfulness<br>• Interpretability and explainability | • Versatility limitation across domains<br>• Complex model design<br>• Sensitivity to prior knowledge |
+| **Post-execution** | • Robustness of knowledge<br>• Trustable output<br>• Retrieval process optimization | • Less exploration<br>• Extra computational cost<br>• Reliance to knowledge quality |
+
 ---
 
 ### 4. Domain-specific Applications
@@ -305,7 +327,7 @@ According to the different types of input data, we classify existing models into
 
 #### 💊 AI4Medicine
 
-![AI4Medicine](README.assets\AI4Medicine.png)
+![AI4Medicine](figure\AI4Medicine.png)
 
 
 **Medical Vision-and-Language Pre-training**
@@ -337,7 +359,7 @@ According to the different types of input data, we classify existing models into
 
 #### 🏭 AI4Industry
 
-![AI4Industry](C:\Users\wyhap\Downloads\README.assets\AI4Industry.png)
+![AI4Industry](C:\Users\wyhap\Downloads\figure\AI4Industry.png)
 
 **Fault Diagnosis**
 
