@@ -233,7 +233,7 @@ According to the different types of input data, we classify existing models into
 
 **Pre-execution Enhancement**
 
--   [**PromptGAT: Grounded Action Transformation with Auxiliary Information**](https://ojs.aaai.org/index.php/AAAI/article/view/27734)  
+-   [**PromptGAT: Grounded Action Transformation with Auxiliary Information**](https://arxiv.org/pdf/2308.14284)  
     Da L, Gao M, Mei H, et al. AAAI, 2024
 -   [**FNSPID: A Comprehensive Financial News Dataset in Time Series**](https://dl.acm.org/doi/10.1145/3637528.3672051)  
     Dong Z, Fan X, Peng Z. KDD, 2024
