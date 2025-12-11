@@ -1,6 +1,6 @@
 # Knowledge-enhanced AI models for domain-specific application: a survey
 
-[![Paper](https://img.shields.io/badge/Paper-PDF-red)](https://link.springer.com/article/10.1007/s11432-025-4635-0)
+[![Paper](https://img.shields.io/badge/Paper-PDF-red)](https://www.sciengine.com/SCIS/doi/10.1007/s11432-025-4635-0)
 [![Science China](https://img.shields.io/badge/Journal-Science_China_Information_Sciences-blue)](https://www.sciengine.com/SCIS/)
 
 This repository serves as the official resource list for the survey paper **"[Knowledge-enhanced AI models for domain-specific application: a survey](https://www.sciengine.com/SCIS/doi/10.1007/s11432-025-4635-0)"**, published in *Science China Information Sciences*.
@@ -232,7 +232,7 @@ According to the different types of input data, we classify existing models into
 
 **Pre-execution Enhancement**
 
--   [**Prompt to transfer: sim-to-real transfer for traffic signal control with prompt learning **](https://arxiv.org/abs/2308.14284)  
+-   [**Prompt to transfer: sim-to-real transfer for traffic signal control with prompt learning**](https://arxiv.org/abs/2308.14284)  
     Da L, Gao M, Mei H, et al. AAAI, 2024
 -   [**FNSPID: A Comprehensive Financial News Dataset in Time Series**](https://arxiv.org/abs/2402.06698)  
     Dong Z, Fan X, Peng Z. KDD, 2024
@@ -358,7 +358,7 @@ According to the different types of input data, we classify existing models into
 
 #### 🏭 AI4Industry
 
-![AI4Industry](C:/Users/wyhap/Downloads/figure/AI4Industry.png)
+![AI4Industry](figure/AI4Industry.png)
 
 **Fault Diagnosis**
 
